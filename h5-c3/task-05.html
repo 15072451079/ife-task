@@ -1,0 +1,329 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <style>
+            html body{
+                padding: 0;
+                margin: 0;
+            }
+            *{
+                padding: 0;
+                margin:0;
+            }
+            ul li{
+                list-style: none;
+            }
+            .header{
+                width: 100%;
+                min-width: 1200px;
+                position: relative;
+                height: 60px;
+                line-height: 60px;
+                overflow: hidden;
+                background: rgb(51, 51, 51);
+                margin: 0;
+                padding: 0;
+            }
+            .header i{
+                float: left;
+                width: 120px;
+                font-size: 30px;
+                margin-left: 40px;
+                color: rgb(212, 16, 0);
+            }
+            .header ul{
+                position: absolute;
+                top: 0;
+                right: 20px;
+                margin: 0;
+                padding: 0
+            }
+            .header ul li{
+                list-style: none;
+                display: inline-block;
+                width: 85px;
+                padding: 0 8px;
+            }
+            .header ul li a{
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 16px;
+            }
+            .main{
+                position: relative;
+                display: flex;
+                padding: 0;
+                margin: 0;
+                background: rgb(222, 222, 222);
+                padding: 24px 24px 4px 24px;
+            }
+            .main .center{
+                background: #ffffff;
+                box-shadow: 2px 2px 3px #888888;
+                padding: 20px;
+                margin-bottom: 20px;
+                overflow: hidden;
+            }
+            .main .left{
+                width: 66%;
+            }
+            .main .right{
+               width: 33%;
+               overflow: hidden;
+            }
+            .artical-thr table{
+                width: 100%;
+                border-collapse: collapse;
+            }
+            .artical-thr table tr th,
+            .artical-thr table tr td{
+                border: 1px solid #888888;
+                text-align: left;
+                font-size: 14px;
+                padding: 4px;
+            }
+            .artical-thr table tr th{
+                background: rgb(51, 51, 51);
+                color: #ffffff;
+            }
+            .artical-thr table tr td{
+                background: #ffffff;
+                color: rgb(51, 51, 51);
+            }
+            .artical-thr table tr:last-child td{
+                background: #888888;
+                color: #ffffff;
+            }
+            .right .aside{
+                float: right;
+                overflow: hidden;
+                
+               
+            }
+            .aside h4{
+                font-size: 18px;
+                padding: 6px;
+                border-left: 3px solid #888888;
+            }
+            .aside aside .regist{
+                margin-left: 10%;
+            }
+            .aside .regist .input{
+                margin-bottom: 6px;
+                font-size: 14px;
+               
+            }
+            .aside .regist .label{
+                float: left;
+                text-align: right;
+                width: 38%;
+                color: rgb(51, 51, 51);
+            }
+            .aside .regist .tips{
+                font-size: 12px;
+                color: #888888;
+                margin-left: 38%;
+            }
+            .aside .submit{
+                background: rgb(51, 85, 208);
+                width: 100%;
+                border-radius: 10px;
+                height: 36px;
+                font-size: 16px;
+                color: #ffffff;
+                border: none;
+            }
+            .footer{
+                /*background: rgb(51, 51, 51);*/
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                background: rgb(51, 51, 51);
+                width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <i>Bai百度</i>
+            <ul>
+                <li><a href="http://ife.baidu.com/2017/">导航链接一</a></li>
+                <li><a href="http://ife.baidu.com/2017/">导航链接二</a></li>
+                <li><a href="http://ife.baidu.com/2017/">导航链接三</a></li>
+                <li><a href="http://ife.baidu.com/2017/">导航链接四</a></li>
+            </ul>
+        </div>
+        <div class="main ">
+            <div class="left">
+                <div class="artical-one center">
+                <article>
+                        <header> 
+                            <h2>文章一级标题</h2>
+                            <h3>文章二级标题</h3>
+                            <p>文章作者,文章发表时间</p>
+                        </header>
+                        <section>
+                            <p>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,
+                                这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,
+                                这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,我要换行啦<br>
+                                这是一个很长的段落,<a href="http://ife.baidu.com/2017/">这里有一个链接到别的地方</a>
+                                <strong>这里还有一段加粗字体</strong>
+                            </p>
+                            <img src="https://img3.doubanio.com/view/photo/l/public/p2519734256.webp" alt="这里是一张图片">
+                        </section>
+                        <footer>
+                            <p>
+                                这是一个很长的段落,这是一个很长的段落，这是一个很长的段落,这是一个很长的段落，这是一个很长的段落,
+                                这是一个很长的段落,这是一个很长的段落，这是一个很长的段落,这是一个很长的段落，这是一个很长的段落，
+                                这是一个很长的段落,这是一个很长的段落，这是一个很长的段落,这是一个很长的段落，这是一个很长的段落,
+                                这是一个很长的段落,这是一个很长的段落，这是一个很长的段落,这是一个很长的段落，这是一个很长的段落,
+                                <a href="http://ife.baidu.com/2017/" target="_blank">这里是链接，打开新窗口</a>
+                            </p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="artical-two center">
+                    <article>
+                        <header>
+                            <h2>另一篇文章的一级标题</h2>
+                            <h3>另一篇文章的二级标题</h3>
+                            <p>文章作者，文章发表的时间</p>
+                        </header>
+                        <section>
+                            <p>这里有一个很长的段落，这里有一个很长的段落，这里有一个很长的段落，这里有一个很长的段落，
+                                我要换行了<br>这里有一个很长的段落，这里有一个很长的段落，这里有一个很长的段落，
+                                这里有一个很长的段落，这里有一个很长的段落，<strong>这里有一个加粗的字体</strong>
+                                <a href="http://ife.baidu.com/2017/">这里一个新标签到别的地方</a>
+                            </p>
+                            <img src="https://img3.doubanio.com/view/photo/l/public/p2519734256.webp" alt="这里是一张图片">
+                        </section>
+                        <section>
+                            <ul>
+                                <li>列表项目一</li>
+                                <li>列表项目二</li>
+                                <li>列表项目三</li>
+                            </ul>
+                        </section>
+                    </article>
+                </div>
+                <div class="pictures center">
+                    <h4>图片</h4>
+                        <section>    
+                            <h5>好看的标签</h5>
+                                <img src="https://img3.doubanio.com/view/photo/l/public/p2519734256.webp" alt="这里是一张图片">
+                        </section>
+                        <section>    
+                                <h5>好看的标签</h5>
+                                <img src="https://img3.doubanio.com/view/photo/l/public/p2519734256.webp" alt="这里是一张图片">
+                        </section>
+                        <section>    
+                                <h5>好看的标签</h5>
+                                <img src="https://img3.doubanio.com/view/photo/l/public/p2519734256.webp" alt="这里是一张图片">
+                        </section>
+                        <section>    
+                                <h5>好看的标签</h5>
+                                <img src="https://img3.doubanio.com/view/photo/l/public/p2519734256.webp" alt="这里是一张图片">
+                        </section>
+                </div>
+                <div class="artical-thr center">
+                    <article>
+                        <header>
+                            <h2>最后一篇文章一级标题</h2>
+                            <h3>最后一篇文章二级标题</h3>
+                            <p>文章作者，文章发表时间</p>
+                        </header>
+                        <section>
+                                <ul start="1">
+                                    <li>1.排名一</li>
+                                    <li>2.排名二</li>
+                                    <li>3.排名三</li>
+                                </ul>
+                        </section>
+                        <section>
+                            <p>下面是一个表格，给表格加上border=1,好让你看出这是一个表格</p>
+                            <table >
+                                <tr>
+                                    <th>表头</th><th>表头</th><th>表头</th>
+                                </tr>
+                                <tr>
+                                    <td>表头内容单元格</td><td>表头内容单元格</td><td>操作</td>
+                                </tr>
+                                <tr>
+                                    <td>表头内容单元格</td><td>表头内容单元格</td><td>操作</td>
+                                </tr>
+                                <tr>
+                                    <td>表头内容单元格</td><td>表头内容单元格</td><td>操作</td>
+                                </tr>
+                                <tr>
+                                    <td>表头内容单元格</td><td>表头内容单元格</td><td>操作</td>
+                                </tr>
+                                <tr>
+                                    <td>总计</td><td colspan="2">1000</td>
+                                </tr>
+                            </table>
+                        </section>
+                    </article>
+                </div>
+            </div>
+            <div class="right">
+                <div class="aside center">
+                        <aside>
+                                <h4>这里以后是一个侧栏，这里是侧栏的标题</h4>
+                                <form class="regist">
+                                    <div class="input">
+                                        <div class="label">请输入邮箱地址:</div>
+                                        <input type="text" placeholder="这里是一个文本输入框">
+                                        <p class="tips">邮箱地址请按照格式输入</p>
+                                    </div>
+
+                                    <div class="input">
+                                        <div class="label">请输入密码：</div><input type="password" placeholder="这里是一个文本输入框">
+                                    </div>
+                                    
+                                    <div class="input">
+                                        <div class="label">请重复输入密码:</div><input type="password" placeholder="这里是一个文本输入框">
+                                        <p class="tips">密码为6-16为英文数字</p>
+                                    </div>
+                                    <div class="input">
+                                        <div class="label">性别：</div>
+                                        <input type="radio" checked="checked" name="Sex" value="male" />男
+                                        <input type="radio" name="Sex" value="female" />女<br>
+                                    </div>
+
+                                    <div class="input">
+                                        <div class="label">城市:</div>
+                                        <select name="city">
+                                            <option value="武汉">武汉</option>
+                                            <option value="北京">北京</option>
+                                            <option value="天津">天津</option>
+                                            <option value="成都">成都</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="input">
+                                        <div class="label">爱好：</div>
+                                        <input type="checkbox" name="sport">运动
+                                        <input type="checkbox" name="art">艺术
+                                        <input type="checkbox" name="science">科学<br>
+                                    </div>
+
+                                    <div class="input">
+                                        <div class="label">个人描述:</div><textarea rows="5" cols="12">这是一个多行输入框,输入您的考试地址</textarea><br>
+                                    </div>
+        
+                                    
+                                </form>
+                                <button class="submit">确认提交</button>
+                        </aside>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>版权所有@</p>
+        </div> 
+    </body>
+</html>
